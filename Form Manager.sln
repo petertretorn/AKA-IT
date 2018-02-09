@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form Manager", "Form Manager\Form Manager.csproj", "{E73E3BA5-FA7F-47F5-9B0F-3EB8BE4F6047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form Manager.Tests", "Form Manager.Tests\Form Manager.Tests.csproj", "{B0B3AC07-6867-409D-A5A8-20C120362187}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E73E3BA5-FA7F-47F5-9B0F-3EB8BE4F6047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73E3BA5-FA7F-47F5-9B0F-3EB8BE4F6047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73E3BA5-FA7F-47F5-9B0F-3EB8BE4F6047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73E3BA5-FA7F-47F5-9B0F-3EB8BE4F6047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0B3AC07-6867-409D-A5A8-20C120362187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B3AC07-6867-409D-A5A8-20C120362187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B3AC07-6867-409D-A5A8-20C120362187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B3AC07-6867-409D-A5A8-20C120362187}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A86A6CA9-D47F-4E3F-ABF8-862D9D8CA556}
+	EndGlobalSection
+EndGlobal
