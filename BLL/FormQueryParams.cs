@@ -14,6 +14,7 @@ namespace FormManager.Domain
         public string CaseWorker { get; set; }
         public string MemberFirstName { get; set; }
         public string MemberLastName { get; set; }
+        public string IsProcessed { get; set; }
 
         public IEnumerable<Expression<Func<Form, bool>>> BuildQuery()
         {
@@ -44,6 +45,20 @@ namespace FormManager.Domain
             if (CaseWorker != null)
             {
                 queries.Add(f => f.CaseWorker.Name.Contains(CaseWorker));
+            }
+
+            if (IsProcessed != null)
+            {
+                var isProcessed = bool.Parse(IsProcessed);
+
+                if (isProcessed)
+                {
+                    queries.Add(f => f.IsProcessed);
+                }
+                else
+                {
+                    queries.Add(f => !f.IsProcessed);
+                }
             }
 
             return queries;

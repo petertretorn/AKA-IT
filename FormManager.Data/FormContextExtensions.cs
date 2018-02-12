@@ -116,8 +116,7 @@ namespace FormManager.Data
                     PreviousEmployer = previousEmployer,
                     CaseWorker = caseWorker,
                     DateUnemployed = DateTime.Now - TimeSpan.FromDays(102),
-                    DateProcessed = DateTime.Now - TimeSpan.FromDays(90),
-                    IsProcessed = true
+                    IsProcessed = false
                 }
 
             };
