@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\FormManager.Domain.csproj" />
+    <ProjectReference Include="..\FormManager.Dto\FormManager.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

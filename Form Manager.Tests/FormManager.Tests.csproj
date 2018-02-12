@@ -108,12 +108,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Form Manager\Form Manager.csproj">
-      <Project>{E73E3BA5-FA7F-47F5-9B0F-3EB8BE4F6047}</Project>
-      <Name>Form Manager</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

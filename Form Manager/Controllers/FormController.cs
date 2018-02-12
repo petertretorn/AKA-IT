@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace Form_Manager.Controllers
 {
-    public class ValuesController : ApiController
+    public class FormController : ApiController
     {
         // GET api/values
         public IEnumerable<string> Get()
